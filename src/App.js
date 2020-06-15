@@ -4,7 +4,7 @@ import ImageSearchForm from "./components/ImageSearchForm/ImageSearchForm";
 import FaceDetect from "./components/FaceDetect/FaceDetect";
 import "./App.css";
 
-// You need to add your own API key here from Clarifai.
+// You need to add your own API key here from Clarifai. go to clarifai to get API
 const app = new Clarifai.App({
   apiKey: "963d76a49eae4a459f7ce8b30fffb8cf",
 });
